@@ -21,18 +21,12 @@ By default, `cpcode` formats your codebase as Markdown, appends an ASCII file tr
 
 ## Installation
 
-### Using `go install`
-
-```bash
-go install github.com/yourusername/cpcode@latest
-```
-
 ### From Source
 
 ```bash
-git clone https://github.com/yourusername/cpcode.git
+git clone git@github.com:SniksaX/Cpcode.git
 cd cpcode
-go build -o cpcode package/main.go
+go build -o cpcode main.go
 mv cpcode /usr/local/bin/
 ```
 
@@ -45,7 +39,7 @@ mv cpcode /usr/local/bin/
 cpcode
 
 # 2. Copy specific files or subdirectories
-cpcode main.go package/src/
+cpcode main.go src/
 
 # 3. Print output to stdout instead of clipboard
 cpcode -p
