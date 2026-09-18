@@ -1,4 +1,5 @@
-# cpcode
+<img width="224" height="44" alt="cpcode-lockup-white" src="https://github.com/user-attachments/assets/171294f6-e732-487d-a8e0-8dce034956d7" />
+
 
 **`cpcode`** is a fast CLI tool written in Go that packages your source code, directory structures, and terminal outputs into single, well-formatted prompt contexts optimized for Large Language Models (LLMs) like ChatGPT, Claude, and Gemini.
 
